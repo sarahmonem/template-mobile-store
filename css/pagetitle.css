@@ -1,0 +1,95 @@
+.pagetitle {
+    height: 200px;
+    background: linear-gradient(308deg, rgb(27 54 115 / 97%) 9%, rgb(86 91 208 / 71%) 89%);
+    border-radius: 0 0 36% 100%/0 0 26% 38%;
+}
+
+.breadcrumbtitle {
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.breadcrumb-item a, .breadcrumb-item.active {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar{
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    width: 130px;
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link.active , .navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.nav-link .divider{
+    transition: ease .5s all;
+    width: 0px;
+    opacity: 1;
+    border-top: 2px solid #ffffff;
+    margin: 0 auto;
+}
+.nav-link:hover .divider , .nav-link.active .divider{
+width: 60px;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: white;
+}
+.socialicons{
+    display: flex;
+    list-style: none;
+}
+.socialicons i{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 9px;
+    transition: ease .5s all;
+}
+ .bannar .socialicons a:hover i{
+    color: #ffffff;
+    font-size: 22px;}
+
+@media (max-width: 991px) {
+  
+    .navbar-collapse {
+        border-radius: 6px;
+        background: #ffffff;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #615e5e;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+        background: #fff;
+        
+    }
+    .navbar-light .navbar-nav .nav-link.active ,.navbar-light .navbar-nav .nav-link:hover  {
+        color: #1f1f1f ;
+        }
+    .navbar-light .navbar-nav .nav-link.active   {
+      
+        font-weight: 600;
+    font-size: 18px;}
+    .navbar-light .navbar-nav .nav-link {
+        width: 130px;
+        color: #4e4a4a;
+    }
+    .navbar-toggler:focus {
+        
+        outline: 0;
+        box-shadow: none;}
+        .nav-link {
+            display: block;
+            padding: 15px 0px 0px 0px;}
+            .socialicons i{
+                color: #45579b;
+               
+            }
+        }

@@ -1,0 +1,36 @@
+.large-img{
+    height: 350px;
+}
+.large-img img ,.small-img img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+.small-img{
+    height: 120px;
+}
+.product-name h{
+    font-size: 35px;
+}
+.price del{
+    color: #b5b3b3;
+}
+.price span{
+    color: #4053b5;
+}
+.desc li{
+    margin-bottom: 15px;
+    list-style: none;
+}
+.product-name h2 , .desc{
+color: gray;
+}
+.desc li i{
+    color: #626267;
+}
+.thmbnail-img {
+    flex-wrap: wrap;
+}
+.small-img{
+    padding-top: 10px;
+}
