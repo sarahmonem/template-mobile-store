@@ -339,6 +339,7 @@ hr.porduct-divider {
 }
 
 footer {
+    display:none;
     margin-top: 5rem;
     position: relative;
 }
